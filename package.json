@@ -11,9 +11,7 @@
     "dev": "ts-node src/index.ts",
     "db:up": "docker-compose build && docker-compose up -d"
   },
-  "bin": {
-    "kysely-cli": "dist/index.js"
-  },
+  "bin": "dist/index.js",
   "keywords": [],
   "author": "Daniel Stelea <mariandaniel2497@gmail.com>",
   "license": "MIT",
