@@ -1,7 +1,8 @@
 ### Kysely CLI Tool
 
 Kysely CLI is a tool used to generate and execute migrations for [Kysely](https://github.com/koskimas/kysely).
-Usage
+
+## Usage
 
 ```bash
 
