@@ -4,7 +4,7 @@ Kysely CLI Tool
 Kysely CLI is a tool used to generate and execute migrations for [Kysely](https://github.com/koskimas/kysely).
 Usage
 
-bash
+```bash
 
 Usage: kysely-cli [options] [command]
 
@@ -15,12 +15,13 @@ Options:
 Commands:
   migrate            Commands for database migrations
   help [command]     display help for command
+```
 
 Migrate Commands
 
 The migrate command is used for database migrations. You can use the following sub-commands:
 
-```
+```bash
 Usage: kysely-cli migrate [command]
 Commands:
   up                 Applies every up migration on the database.
