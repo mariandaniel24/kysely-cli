@@ -9,7 +9,6 @@ Kysely CLI is a tool used to generate and execute migrations for [Kysely](https:
 Usage: kysely-cli [options] [command]
 
 Options:
-  -V, --version     output the version number
   -h, --help        display help for command
 
 Commands:

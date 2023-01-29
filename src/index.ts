@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import dotenv from "dotenv";
 dotenv.config();
 import { Command, Option } from "commander";
@@ -6,12 +7,12 @@ import { migrateToLatest } from "./commands/migrate-latest";
 import { generateKyselyClient } from "./client";
 import { createNewMigration } from "./commands/migrate-new";
 import { generateFoldersIfNotExists } from "./generateFolders";
-
+import { version } from "../package.json";
 const program = new Command();
 
 const migrateCommands = program
   .command("migrate")
-  .version("0.1.0")
+  .version(version)
   .description("Commands for database migrations");
 
 const dbOption = new Option(
