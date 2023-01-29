@@ -1,5 +1,4 @@
-Here is a sample README.md file that explains the Kysely CLI tool:
-Kysely CLI Tool
+### Kysely CLI Tool
 
 Kysely CLI is a tool used to generate and execute migrations for [Kysely](https://github.com/koskimas/kysely).
 Usage
