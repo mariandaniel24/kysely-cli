@@ -1,6 +1,6 @@
 {
   "name": "kysely-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Command line interface for Kysely",
   "main": "dist/index.js",
   "module": "dist/index.js",

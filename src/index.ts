@@ -11,6 +11,7 @@ const program = new Command();
 
 const migrateCommands = program
   .command("migrate")
+  .version("0.1.0")
   .description("Commands for database migrations");
 
 const dbOption = new Option(
